@@ -1,0 +1,201 @@
+
+
+body {
+      font-family: 'Roboto Slab', serif;
+      font-family: 'Roboto', sans-serif;
+}
+
+/*****FONTS*****/
+
+h1, h3 {
+      font-family: 'Roboto Slab', serif;
+}
+
+h2, h4, p {
+      font-family: 'Roboto', sans-serif;
+      color: #095256;
+}
+
+h1 {
+      font-size: 60px;
+      font-weight: bold;
+      color: #bdbf09;
+}
+
+h2 {
+      font-size: 48px;
+      font-weight: normal;
+      color: #095256;
+}
+
+h3 {
+      font-size: 36px;
+      font-weight: bold;
+      color: #095256;
+}
+
+h4 {
+      font-size: 24px;
+      font-weight: bold;
+}
+
+p {
+      font-size: 24px;
+      font-weight: normal;
+}
+
+/*****GRID*****/
+
+.container {
+      margin: 0 auto;
+      width: 1400px;
+}
+
+.row {
+      margin: 0 auto;
+      width: 1200px;
+      height: 425px;
+}
+
+.third {
+      margin: 0 auto;
+      width: 466px;
+      float: left;
+}
+
+/*****HEADER*****/
+
+header {
+      height: 100px;
+      background-color: #bdbf09;
+      margin: 0 auto;
+}
+
+nav {
+      float: right;
+      padding: 15px 0;
+}
+
+nav ul li {
+      display: inline-block;
+      padding: 0 35px 0 0;
+      font-size: 30px;
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: black;
+}
+
+nav ul li a:hover {
+      color: white;
+}
+
+/*****HOME*****/
+
+#home {
+      background: url('../img/hero.png');
+      height: 800px;
+      text-align: center;
+      margin: 0 auto;
+      overflow: auto;
+      clear: both;
+}
+
+#home h1 {
+      padding: 340px 0 0 0;
+      font-size: 60px;
+}
+
+#home h2 {
+      padding: 0 300px;
+}
+
+/*****PORTFOLIO*****/
+
+#portfolio {
+      margin: 0 auto;
+      width: 1200px;
+}
+
+#portfolio h3 {
+      text-align: center;
+}
+
+#portfolio .row img {
+      float: left;
+      height: auto;
+      padding: 0 55px 0 0;
+}
+
+/*****ABOUT*****/
+
+#about {
+      background-color: #087e8b;
+      height: 0 auto;
+}
+
+#about .row img {
+      float: left;
+      height: auto;
+      padding: 0 55px 0 0;
+}
+
+#about h3 {
+      text-align: center;
+      color: white;
+      padding: 25px 0;
+}
+
+#about h4, #about p {
+      color: white;
+      line-height: 30px;
+}
+
+/*****CONTACT*****/
+
+#contact {
+      background-color: #095156;
+      margin: 0 auto;
+      clear: both;
+      overflow: auto;
+      padding: 0 0 75px 0;
+}
+
+#contact h3 {
+      text-align: center;
+      color: white;
+      padding: 25px 0;
+}
+
+#contact h4, #contact p {
+      color: white;
+}
+
+#contact .third {
+      text-align: center;
+      line-height: 10px;
+}
+
+#contact ul {
+      padding: 0;
+}
+
+#contact ul li {
+      display: inline-block;
+      padding: 0 15px 0 15px;
+}
+
+/*****FOOTER*****/
+
+footer {
+      background-color: #095156;
+      overflow: auto;
+      clear: both;
+      text-align: center;
+      padding: 20px 0;
+}
+
+footer p {
+      color: white;
+}
