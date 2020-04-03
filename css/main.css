@@ -1,18 +1,18 @@
 
 
 body {
-      font-family: 'Roboto Slab', serif;
-      font-family: 'Roboto', sans-serif;
+      font-family: 'Sen', sans-serif;
+      font-family: 'Francois One', sans-serif;
 }
 
 /*****FONTS*****/
 
 h1, h3 {
-      font-family: 'Roboto Slab', serif;
+      font-family: 'Francois One', sans-serif;
 }
 
 h2, h4, p {
-      font-family: 'Roboto', sans-serif;
+      font-family: 'Sen', sans-serif;
       color: #095256;
 }
 
@@ -66,9 +66,11 @@ p {
 /*****HEADER*****/
 
 header {
-      height: 100px;
+      height: 110px;
       background-color: #bdbf09;
       margin: 0 auto;
+      overflow: auto;
+      clear: both;
 }
 
 nav {
