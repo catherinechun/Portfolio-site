@@ -131,7 +131,9 @@ nav ul li a:hover {
 #portfolio .row img {
       float: left;
       height: auto;
-      padding: 0 55px 0 0;
+      width: 500px;
+      margin: 0 55px 0 0;
+      border: 2px solid #FF3366;
 }
 
 /*****ABOUT*****/
